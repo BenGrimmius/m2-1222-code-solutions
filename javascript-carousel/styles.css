@@ -1,0 +1,37 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  width: 100%;
+}
+
+img {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.chevron:hover {
+  font-size: 3em;
+  transition: 1s ease-out;
+  cursor: pointer;
+}
+
+.dot {
+  margin: 150px 10px;
+}
+
+.dot:hover {
+  font-size: 1.1em;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+}
