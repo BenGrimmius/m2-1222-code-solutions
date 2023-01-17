@@ -1,0 +1,223 @@
+    1  git branch javascript-custom-methods
+    2  git switch javascript-custom-methods
+    3  git status
+    4  git add javascript-customer-methods/
+    5  git add javascript-custom-methods/
+    6  git status
+    7  git commit -m "Complete javascript-custom-methods exercise"
+    8  git push origin javascript-custom-methods
+    9  git switch main
+   10  git pull origin main
+   11  git branch javascript-this
+   12  git swtich javascript-this
+   13  git switch javascript-this
+   14  git status
+   15  git add javascript-this/
+   16  git status
+   17  git commit -m "Complete javascript-this exercise"
+   18  git push origin main
+   19  git push origin javascript-this
+   20  git switch main
+   21  git pull origin main
+   22  git branch javascript-prototypes
+   23  git switch javascript-prototypes
+   24  git status
+   25  git add javascript-prototypes/
+   26  git status
+   27  git commit -m "Complete javascript-prototypes exercise"
+   28  git push origin javascript-prototypes
+   29  git switch main
+   30  git pull origin main
+   31  git branch Object.setPrototypeOf(yakko.prototype, warnerPrototype.prototype);
+   32  git branch javascript-constructors
+   33  git switch javascript-constructors
+   34  git status
+   35  git add javascript-constructors/
+   36  git status
+   37  git commit -m "Complete javascript-constructors exercise"
+   38  git status
+   39  git add javascript-constructors/example-constructors.js
+   40  git status
+   41  git add javascript-constructors/example-constructor.js
+   42  git status
+   43  git commit -m "Complete javascript-constructors exercise"
+   44  git add javascript-constructors/example-constructor.js
+   45  git status
+   46  git commit -m "Complete javascript-constructors exercise"
+   47  git push origin javascript-constructors
+   48  git switch main
+   49  git pull origin main
+   50  git branch javascript-bank
+   51  git switch javascript-bank
+   52  git switch main
+   53  git branch javascript-timers
+   54  git switch javascript-timers
+   55  git status
+   56  git add javascript-timers/
+   57  git status
+   58  git commit javascript-timers
+   59  git add javascript-timers
+   60  git status
+   61  git commit -m "Complete javascript-timers exercise"
+   62  git push origin javascript-timers
+   63  git switch main
+   64  git switch javascript-bank
+   65  git switch main
+   66  git branch javascript-carousel
+   67  git switch javascript-carousel
+   68  git status
+   69  git add javascript-carousel
+   70  git status
+   71  git commit -m "Complete javascript-carousel exercise"
+   72  git add javascript-carousel
+   73  git status
+   74  git commit -m "Complete javascript-carousel exercise"
+   75  git push origin javascript-carousel
+   76  git switch main
+   77  git switch javascript-bank
+   78  git status
+   79  git add javascript-bank/
+   80  git status
+   81  git commit -m "Complete javascript-bank exercise"
+   82  git push origin javascript-bank
+   83  git switch main
+   84  git switch javascript-carousel
+   85  git status
+   86  git add javascript-carousel/main.js
+   87  git status
+   88  git add javascript-carousel/main.js
+   89  git commit -m "Carousel full code commit"
+   90  git add javascript-carousel/main.js
+   91  git status
+   92  git commit -m "Carousel full code"
+   93  git push origin javascript-carousel
+   94  git switch main
+   95  git branch http-messages
+   96  git switch http-messages
+   97  http https://example.com 
+   98  http --verbose https://example.com 
+   99  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  100  http --body GET https://example.com > http-messages/index.html
+  101  git status
+  102  git add http-messages/
+  103  git commit -m "Complete http-messages exercise"
+  104  git push origin http-messages
+  105  git switch main
+  106  git switch javascript-carousel
+  107  git status
+  108  git add javascript-carousel
+  109  git status
+  110  git commit -m "Complete Javascript-carausel exercise"
+  111  git push origin javascript-carousel
+  112  git switch main
+  113  git branch javascript-ajax
+  114  git switch javascript-ajax
+  115  git add javascript-ajax
+  116  git status
+  117  git commit -m "Complete javascript-ajax exercise"
+  118  git push origin javascript-ajax
+  119  git switch main
+  120  git pull origin main
+  121  git branch es6-const-let
+  122  git switch es6-const-let
+  123  git add es6-const-let
+  124  git status
+  125  git commit -m "Complete es6-const-let exercise"
+  126  git push origin es6-const-let
+  127  git switch main
+  128  git pull origin main
+  129  git branch es6-template-literals
+  130  git switch es6-template-literals
+  131  git add es6-template-literals
+  132  git status
+  133  git commit -m "Complete es6-template-literals exercise"
+  134  git push origin es6-template-literals
+  135  git switch main
+  136  git branch es6-destructuring
+  137  git switch es6-destructuring
+  138  git add index.html
+  139  git status
+  140  git add es6-destructuring
+  141  git status
+  142  git commit -m "Complete es6-destructuring exercise"
+  143  git push origin es6-destructuring
+  144  git switch main
+  145  git pull origin main
+  146  git branch es6-arrow-functions
+  147  git switch es6-arrow-functions
+  148  git add es6-arrow-functions
+  149  git status
+  150  git commit -m "Complete es6-arrow-functions exercise"
+  151  git push origin es6-arrow-functions
+  152  git switch main
+  153  git pull origin main
+  154  git pull main
+  155  git pull origin main
+  156  git branch command-line-basics
+  157  git switch command-line-basics
+  158  cd command-line-basics
+  159  man man
+  160  man man
+  161  man cat
+  162  cat laziness.txt
+  163  cat impatience.txt
+  164  cat hubris.txt
+  165  cat laziness.txt impatience.txt hubris.txt
+  166  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  167  cat three-virtues.txt
+  168  man ls
+  169  ls
+  170  ls -a
+  171  ls -F
+  172  man ls
+  173  ls lfz-staff
+  174  ls -a lfz-staff
+  175  ls -F lfz-staff
+  176  ls -aF lfz-staff > lfz-staff/contents.txt
+  177  cat contents.txt
+  178  cat lfz-staff/contents.txt
+  179  man pwd
+  180  pwd
+  181  pwd > i-was-here.txt
+  182  ls
+  183  ls cat i-was-here.txt
+  184  cat i-was-here.txt
+  185  man echo
+  186  echo 'Hello, World!'
+  187  echo 'Hello, World!' > hello.txt
+  188  ls
+  189  cat hello-txt
+  190  cat hello.txt
+  191  man touch
+  192  touch > tag-youre-it.txt
+  193  touch snoot/boop.txt
+  194  ls snoot/
+  195  man mkdir
+  196  mkdir parent
+  197  ls parent
+  198  ls parent/
+  199  ls parent/
+  200  ls parent
+  201  mkdir -p parent/child/grandchild
+  202  touch parent/child/grandchild/.gitkeep
+  203  ls -a parent/child/grandchild
+  204  man mv
+  205  mv pokiemans... pokemon
+  206  mv pokiemans... pokemon
+  207  mv pokiemans pokemon
+  208  ls pokemon
+  209  man rm
+  210  rm lol.txt
+  211  ls lol.txt
+  212  rm -r kill-me
+  213  ls kill-me
+  214  man cp
+  215  cp and-then.txt > no-and-then.txt
+  216  cp and-then.txt no-and-then.txt
+  217  ls and-then.txt
+  218  ls no-and-then.txt
+  219  cat and-then.txt
+  220  cat no-and-then.txt
+  221  man history
+  222  history
+  223  history > command-history.txt
