@@ -1,4 +1,5 @@
 SELECT
+  "customers"."customerId",
   "customers"."firstName",
   "customers"."lastName",
   SUM("payments"."amount") AS "Total-Paid"
@@ -7,7 +8,6 @@ FROM
 JOIN
   "payments" USING ("customerId")
 GROUP BY
-  "customers"."firstName",
-  "customers"."lastName"
+  "customers"."customerId"
 ORDER BY
   "Total-Paid" DESC
